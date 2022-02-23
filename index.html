@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Boilerplate</title>
+    <script src="./nft.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://github.com/WalletConnect/walletconnect-monorepo/releases/download/1.7.1/web3-provider.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    
+  </head>
+
+  <body>
+    <h1> Hello World!</h1>
+
+    
+    <button id="btn-login">WalletConnect Login</button>
+    
+
+    <button id="btn-logout">Logout</button>
+
+    <button id="btn-nft">getNFT</button>
+
+    <input type="text" id="contract-address" placeholder="contract address"></input>
+    <button id="btn-nft2">Fetch contract</button>
+
+
+    <div id="nft-container"></div>
+
+
+   
+    <script defer src="./main.js"></script>
+  </body>
+</html>
